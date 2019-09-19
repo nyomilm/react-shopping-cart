@@ -47,15 +47,15 @@ Before you get started, please take a few minutes and get acquainted with this a
 
 **STEP 1 - Creating ProductContext**
 
-- In `src`, create a new folder named `contexts`, this folder is going to be used to hold all of `context objects` we create.
+X- In `src`, create a new folder named `contexts`, this folder is going to be used to hold all of `context objects` we create.
 
-- Inside that folder create a new file named `ProductContext.js`
+X- Inside that folder create a new file named `ProductContext.js`
 
-- In this file, import the `createContext` function from the react library and create our `ProductContext`.
+X- In this file, import the `createContext` function from the react library and create our `ProductContext`.
 
 **STEP 2 - Providing data with ProductContext**
 
-- Now that we've created our `ProductContext` we can import into our `App.js`. Now we can start providing data across our application!
+X- Now that we've created our `ProductContext` we can import into our `App.js`. Now we can start providing data across our application!
 
 - Wrap all of your components/routes in `App.js` inside of `ProductContext.Provider` component.
 
